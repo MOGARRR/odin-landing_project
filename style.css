@@ -1,0 +1,34 @@
+ .header{
+    background-color: antiquewhite;
+ }
+ .links{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    gap: 16px;
+    background-color: gray;
+}
+
+.logo{
+    padding-right: 24em;
+}
+.head-text{
+    display:flex;
+    flex-direction:column ;
+    background-color: aqua;
+}
+button{
+ width: 60px;   
+}
+img{
+    display: flex;
+    align-items: flex-end;
+    background-color:gray;
+    width: 360px;
+    height: 160px;
+    border-radius: 16px;
+
+}
