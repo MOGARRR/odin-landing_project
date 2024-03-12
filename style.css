@@ -1,5 +1,9 @@
  .header{
     background-color: antiquewhite;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
  }
  .links{
     display: flex;
@@ -16,19 +20,26 @@
     padding-right: 24em;
 }
 .head-text{
-    display:flex;
-    flex-direction:column ;
     background-color: aqua;
+  
 }
 button{
- width: 60px;   
+ width: 100px;
+ height: 30px;
+ border-radius: 8px;
+ border: none;
+ background-color: darkblue;
+ color: aliceblue;
+
 }
-img{
+.img{
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     background-color:gray;
+    color: white;
     width: 360px;
     height: 160px;
-    border-radius: 16px;
+
 
 }
