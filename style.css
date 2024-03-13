@@ -43,3 +43,37 @@ button{
 
 
 }
+.info{
+    background-color: burlywood;
+}
+.info-title{
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+.card-pack{
+    display: flex;
+    justify-content: center;
+}
+.info-subtextbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.info-subtext{
+    flex-basis:140px;
+    padding:10px;
+    background-color: tomato;
+}
+.card{
+
+    background-color: aliceblue;
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    gap: 16px;
+    border-style: solid;
+    border-color: rgb(23, 103, 207);
+    border-radius: 16px;
+}
