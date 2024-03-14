@@ -23,7 +23,7 @@
     background-color: aqua;
   
 }
-button{
+.head-button{
  width: 100px;
  height: 30px;
  border-radius: 8px;
@@ -75,5 +75,47 @@ button{
     gap: 16px;
     border-style: solid;
     border-color: rgb(23, 103, 207);
+    border-radius: 16px;
+}
+
+.quote-back{
+    flex: 1;
+    display: flex;
+    background-color: violet;
+    justify-content: center;
+    padding: 40px;
+}
+.quote{
+    background-color:orange ;
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+.quote-person{
+    align-self: flex-end;
+}
+.ad{
+    flex: 1;
+    display: flex;
+    background-color: chartreuse;
+    justify-content: center;
+    padding: 40px;
+}
+.ad-card{
+    display: flex;
+    width: 60%;
+    padding: 25px;
+    background-color: lightsteelblue;
+    justify-content: space-around;
+    
+}
+.bottom-button{
+    align-self: center;
+    width: 90px;
+    height: 40px;
+    background-color: royalblue;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
     border-radius: 16px;
 }
