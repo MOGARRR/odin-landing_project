@@ -119,3 +119,11 @@
     border-color: aliceblue;
     border-radius: 16px;
 }
+.footer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: aliceblue;
+    padding: 16px;
+}
