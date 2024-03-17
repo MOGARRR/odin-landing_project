@@ -1,7 +1,8 @@
  .header{
-    background-color: antiquewhite;
+    background-color: #1f2937;
     flex: 1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 3em;
  }
@@ -13,27 +14,41 @@
     margin: 0;
     padding: 10px;
     gap: 16px;
-    background-color: gray;
+    color:#f9faf8;
+    background-color: #1f2937;
+}
+.top-bar{
+    color: #f9faf8;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .logo{
-    padding-right: 24em;
+    padding-right:12em;
+    font-size: 24px;
+    color:#f9faf8;
 }
-.head-text{
-    background-color: aqua;
-  
+.head-textbox{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 10px 16px 48px 16px;
+}
+.head-title{
+    font-size:48px;
+    font-weight: bolder;
 }
 .head-button{
  width: 100px;
  height: 30px;
  border-radius: 8px;
  border: none;
- background-color: darkblue;
+ background-color: #3882f6;
  color: aliceblue;
 
 }
 .img{
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
     background-color:gray;
@@ -44,12 +59,14 @@
 
 }
 .info{
-    background-color: burlywood;
+    background-color:;
 }
 .info-title{
     padding: 20px;
     text-align: center;
-    font-size: 26px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
 }
 .card-pack{
     display: flex;
@@ -62,9 +79,11 @@
     gap: 16px;
 }
 .info-subtext{
-    flex-basis:140px;
-    padding:10px;
-    background-color: tomato;
+    flex:1;
+    max-width: 150px;
+    padding-bottom:10px;
+    font-size: 16px;
+  
 }
 .card{
 
@@ -74,30 +93,33 @@
     margin: 10px;
     gap: 16px;
     border-style: solid;
-    border-color: rgb(23, 103, 207);
+    border-color:#3882f6;
     border-radius: 16px;
 }
 
 .quote-back{
     flex: 1;
     display: flex;
-    background-color: violet;
+    background-color:#e5e7eb;
     justify-content: center;
     padding: 40px;
 }
 .quote{
-    background-color:orange ;
-    width: 50%; 
+
+    padding:25px; 
     display: flex;
     flex-direction: column;
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937 ;
 }
 .quote-person{
     align-self: flex-end;
+    font-weight: bold;
 }
 .ad{
     flex: 1;
     display: flex;
-    background-color: chartreuse;
     justify-content: center;
     padding: 40px;
 }
@@ -105,7 +127,8 @@
     display: flex;
     width: 60%;
     padding: 25px;
-    background-color: lightsteelblue;
+    color: #e5e7eb;
+    background-color: #3882f6;
     justify-content: space-around;
     
 }
@@ -113,7 +136,7 @@
     align-self: center;
     width: 90px;
     height: 40px;
-    background-color: royalblue;
+    background-color:#3882f6;
     color: aliceblue;
     border-style: solid;
     border-color: aliceblue;
@@ -123,7 +146,7 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color:#1f2937;
     color: aliceblue;
     padding: 16px;
 }
